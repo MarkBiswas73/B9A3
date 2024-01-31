@@ -2,141 +2,150 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOCKEY'S</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOCKEY'S</title>
 
-    <!-- Fonts -->
+  <!-- Fonts -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
-    <!-- Tailwind & DaisyUi -->
+  <!-- Tailwind & DaisyUi -->
 
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Customized colors -->
+  <!-- Customized colors -->
 
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                        'hockey-primary': '#da373d',
-                        'hockey-heading-color': '#131318',
-                        'hockey-small-color': '#424247',
-                    }
-                }
-            }
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'hockey-primary': '#da373d',
+            'hockey-heading-color': '#131318',
+            'hockey-small-color': '#424247',
+          }
         }
-    </script>
+      }
+    }
+  </script>
 
-    <!-- Font -->
+  <!-- Font -->
 
-    <script src="https://kit.fontawesome.com/0b35325a33.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0b35325a33.js" crossorigin="anonymous"></script>
 
-    <style>
-        .font-manrope {
-            font-family: 'Manrope', sans-serif;
-        }
-    </style>
+  <style>
+    .font-manrope {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
 </head>
 
 <body class="font-manrope">
 
-    <header class=" container  mx-auto">
-        <!-- Navbar -->
+  <header class=" container  mx-auto">
+    <!-- Navbar -->
 
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
-                    </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Home</a></li>
-                        <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>About</a></li>
-                        <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Pages</a></li>
-                        <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Blog</a></li>
-                        <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Contact</a></li>
-                      </ul>
-                    </div>
-                    <a class="btn btn-ghost text-xl font-extrabold text-hockey-heading-color">Hockey<span class="text-hockey-primary -mx-2">’</span>s</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Home</a></li>
-                  <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>About</a></li>
-                  <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Pages</a></li>
-                  <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Blog</a></li>
-                  <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Contact</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end">
-                <i class="fa-solid fa-magnifying-glass p-2 text-hockey-small-color invisible lg:visible"></i>
-              <a class="btn bg-hockey-primary text-white hover:text-hockey-primary">Get Ticket</a>
-            </div>
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
           </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Home</a></li>
+            <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>About</a></li>
+            <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Pages</a></li>
+            <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Blog</a></li>
+            <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Contact</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl font-extrabold text-hockey-heading-color">Hockey<span
+            class="text-hockey-primary -mx-2">’</span>s</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Home</a></li>
+          <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>About</a></li>
+          <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Pages</a></li>
+          <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Blog</a></li>
+          <li class="hover:text-hockey-primary font-bold text-hockey-small-color"><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <i class="fa-solid fa-magnifying-glass p-2 text-hockey-small-color invisible lg:visible"></i>
+        <a class="btn bg-hockey-primary text-white hover:text-hockey-primary">Get Ticket</a>
+      </div>
+    </div>
 
-          <!-- Trophy banner Section -->
+    <!-- Trophy banner Section -->
 
-<div class="carousel w-full relative">
     <div class="carousel w-full relative">
-    <div id="slide1" class="carousel-item a w-full">
-      <img src="/Images/1.png" class="w-full lg:h-[600px] "/>
-      <div class="absolute flex gap-10 left-10 bottom-10">
-        <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a> 
-        <a href="#slide2" class="btn btn-circle bg-black text-white ">❯</a>
+      <div class="carousel w-full relative">
+        <div id="slide1" class="carousel-item a w-full">
+          <img src="/Images/1.png" class="w-full lg:h-[600px] " />
+          <div class="absolute flex gap-10 left-10 bottom-10">
+            <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+            <a href="#slide2" class="btn btn-circle bg-black text-white ">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full ">
+          <img src="Images/hockey-players.jpg" class="w-full lg:h-[600px] object-cover" />
+          <div class="absolute flex gap-10 left-10 bottom-10">
+            <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+            <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/28120.jpg" class="w-full lg:h-[600px] object-cover" />
+          <div class="absolute flex gap-10 left-10 bottom-10">
+            <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+            <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+          </div>
+        </div>
       </div>
+
+  </header>
+  <main class="container  mx-auto">
+    <!-- Professional Hockeys Club section -->
+
+    <div class="text-center container mx-auto px-4 mt-24 border-dashed border-t border-b border-gray-300 p-4 my-7">
+      <h1 class=" sm:text-2xl lg:text-4xl  font-bold text-hockey-heading color mb-6">
+        Professional Hockeys Club
+      </h1>
+      <p class="text-s font-light text-hockey-small-color ">"Experience the exhilarating thrill of professional hockey
+        with our premier Hockey Club, where every game is a testament to skill, <br> strategy, and the pure passion for
+        the sport</p>
     </div>
-    <div id="slide2" class="carousel-item relative w-full ">
-      <img src="Images/hockey-players.jpg" class="w-full lg:h-[600px] object-cover" />
-      <div class="absolute flex gap-10 left-10 bottom-10">
-        <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a> 
-        <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
-      </div>
-    </div> 
-    <div id="slide3" class="carousel-item relative w-full">
-      <img src="Images/28120.jpg" class="w-full lg:h-[600px] object-cover" />
-      <div class="absolute flex gap-10 left-10 bottom-10">
-        <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a> 
-        <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
-      </div>
-    </div> 
     </div>
-
-    </header>
-    <main class="container  mx-auto">
-      <!-- Professional Hockeys Club section -->
-
-      <div class="text-center container mx-auto px-4 mt-24 border-dashed border-t border-b border-gray-300 p-4 my-7">
-        <h1 class=" sm:text-2xl lg:text-4xl  font-bold text-hockey-heading color mb-6">
-         Professional Hockeys Club
-        </h1 >
-        <p class="text-s font-light text-hockey-small-color ">"Experience the exhilarating thrill of professional hockey with our premier Hockey Club, where every game is a testament to skill, <br> strategy, and the pure passion for the sport</p>
+     
+    <!-- Progress bars -->
+<section class="lg:flex justify-center">
+  <!-- Player facility -->
+      <div >
+        <div >85%</span></div>
+  
+      <div class="max-w-64">
+        <h3 >Prayer Facility</h3>
+        <p >State-of-the-art amenities and comfort to enhance the well-being and performance of our players.</p>
       </div>
-      
-        
-
-
       </div>
-      
 
-      <div>
+    <div>
 
-    </main>
+  </main>
 
-    <footer>
+  <footer>
 
-    </footer>
+  </footer>
 </body>
 
 </html>
